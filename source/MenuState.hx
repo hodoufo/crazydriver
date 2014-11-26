@@ -18,12 +18,12 @@ class MenuState extends FlxState
 	override public function create():Void
 	{
 		super.create();
+		add(new FlxText(200, 20, 200, "Crazy Traffic!", 20, true));
+		add(new FlxText(100, 100, 100, "Swipe left to be a bad guy", 20, true));
+		add(new FlxText(400, 100, 100, "And right to be the good one", 20, true));
 	}
 	
-	/**
-	 * Function that is called when this state is destroyed - you might want to 
-	 * consider setting all objects this state uses to null to help garbage collection.
-	 */
+
 	override public function destroy():Void
 	{
 		super.destroy();
@@ -35,5 +35,20 @@ class MenuState extends FlxState
 	override public function update():Void
 	{
 		super.update();
+		for (swipe in FlxG.swipes){
+		    if (swipe.angle > 90 || swipe.angle < -90) {
+		    	swipe_left();
+		    } else if ( swipe.angle < 90 && swipe.angle > -90) {
+		    	swipe_right();
+		    }
+		}
+	}
+
+	private function swipe_left():Void {
+		FlxG.switchState(new MinigameGameSwitcherState(true, 0, false, 5));	
+	}
+	
+	private function swipe_right():Void {
+		FlxG.switchState(new MinigameGameSwitcherState(false, 0, false, 5));
 	}	
 }

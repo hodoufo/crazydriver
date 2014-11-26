@@ -46,18 +46,60 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		#if flash
 		
+		path.set ("assets/seta2.png", "assets/seta2.png");
+		type.set ("assets/seta2.png", AssetType.IMAGE);
 		path.set ("assets/bloodstain.png", "assets/bloodstain.png");
 		type.set ("assets/bloodstain.png", AssetType.IMAGE);
+		path.set ("assets/road3.png", "assets/road3.png");
+		type.set ("assets/road3.png", AssetType.IMAGE);
+		path.set ("assets/road3 - Copia.png", "assets/road3 - Copia.png");
+		type.set ("assets/road3 - Copia.png", AssetType.IMAGE);
+		path.set ("assets/fundo.png", "assets/fundo.png");
+		type.set ("assets/fundo.png", AssetType.IMAGE);
+		path.set ("assets/vel.png", "assets/vel.png");
+		type.set ("assets/vel.png", AssetType.IMAGE);
+		path.set ("assets/road1.png", "assets/road1.png");
+		type.set ("assets/road1.png", AssetType.IMAGE);
+		path.set ("assets/FloorTexture.png", "assets/FloorTexture.png");
+		type.set ("assets/FloorTexture.png", AssetType.IMAGE);
+		path.set ("assets/Car.png", "assets/Car.png");
+		type.set ("assets/Car.png", AssetType.IMAGE);
+		path.set ("assets/stop.png", "assets/stop.png");
+		type.set ("assets/stop.png", AssetType.IMAGE);
+		path.set ("assets/limit.png", "assets/limit.png");
+		type.set ("assets/limit.png", AssetType.IMAGE);
+		path.set ("assets/steering wheelright.png", "assets/steering wheelright.png");
+		type.set ("assets/steering wheelright.png", AssetType.IMAGE);
 		path.set ("assets/data/data-goes-here.txt", "assets/data/data-goes-here.txt");
 		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
+		path.set ("assets/road2.png", "assets/road2.png");
+		type.set ("assets/road2.png", AssetType.IMAGE);
+		path.set ("assets/road1 - Copia.png", "assets/road1 - Copia.png");
+		type.set ("assets/road1 - Copia.png", AssetType.IMAGE);
 		path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
 		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
+		path.set ("assets/Ball.png", "assets/Ball.png");
+		type.set ("assets/Ball.png", AssetType.IMAGE);
+		path.set ("assets/seta.png", "assets/seta.png");
+		type.set ("assets/seta.png", AssetType.IMAGE);
 		path.set ("assets/images/images-go-here.txt", "assets/images/images-go-here.txt");
 		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
 		path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
 		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
+		path.set ("assets/car2.png", "assets/car2.png");
+		type.set ("assets/car2.png", AssetType.IMAGE);
+		path.set ("assets/windshield.png", "assets/windshield.png");
+		type.set ("assets/windshield.png", AssetType.IMAGE);
+		path.set ("assets/Orb.png", "assets/Orb.png");
+		type.set ("assets/Orb.png", AssetType.IMAGE);
+		path.set ("assets/steering wheelleft.png", "assets/steering wheelleft.png");
+		type.set ("assets/steering wheelleft.png", AssetType.IMAGE);
 		path.set ("assets/car.png", "assets/car.png");
 		type.set ("assets/car.png", AssetType.IMAGE);
+		path.set ("assets/steering wheel.png", "assets/steering wheel.png");
+		type.set ("assets/steering wheel.png", AssetType.IMAGE);
+		path.set ("assets/road2 - Copia.png", "assets/road2 - Copia.png");
+		type.set ("assets/road2 - Copia.png", AssetType.IMAGE);
 		path.set ("assets/sounds/beep.ogg", "assets/sounds/beep.ogg");
 		type.set ("assets/sounds/beep.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/flixel.ogg", "assets/sounds/flixel.ogg");
@@ -67,22 +109,85 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#elseif html5
 		
 		var id;
+		id = "assets/seta2.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
 		id = "assets/bloodstain.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/road3.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/road3 - Copia.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/fundo.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/vel.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/road1.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/FloorTexture.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/Car.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/stop.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/limit.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/steering wheelright.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/data/data-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/road2.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/road1 - Copia.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
 		id = "assets/music/music-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/Ball.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/seta.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
 		id = "assets/images/images-go-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "assets/sounds/sounds-go-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/car2.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/windshield.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/Orb.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/steering wheelleft.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
 		id = "assets/car.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/steering wheel.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/road2 - Copia.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/sounds/beep.ogg";
@@ -106,9 +211,51 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -744,7 +891,49 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #elseif html5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

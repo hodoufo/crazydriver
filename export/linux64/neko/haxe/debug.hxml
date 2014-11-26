@@ -1,4 +1,6 @@
 -main ApplicationMain 
+-cp /usr/lib/haxe/lib/nape/2,0,16
+-D nape=2.0.16
 -cp /usr/lib/haxe/lib/flixel-addons/1,1,0
 -D flixel-addons=1.1.0
 -cp /usr/lib/haxe/lib/openfl/2,1,5

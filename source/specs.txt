@@ -1,0 +1,15 @@
+MENU STATE
+- Abre jogo
+- Swipe left to be a bad guy, right to be a good guy
+- global flag = good/bad
+- global time = 0
+- global points = 0
+- switch to loop state com difTime = 0
+
+LOOP STATE (difTime)
+- global time = time + difTime
+- points = points + (10 - difTime) * 100
+- randomGameSwitcher(flag)
+
+END STATE (difTime)
+- global time = time + difTime
